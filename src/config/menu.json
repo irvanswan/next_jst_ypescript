@@ -1,0 +1,36 @@
+{
+  "main": [
+    {
+      "key": "dashboard",
+      "href": "/dashboard",
+      "icon": "grid"
+    },
+    {
+      "key": "users",
+      "href": "/users",
+      "icon": "users"
+    },
+    {
+      "key": "products",
+      "href": "/products",
+      "icon": "package"
+    },
+    {
+      "key": "history",
+      "href": "/history",
+      "icon": "clock"
+    }
+  ],
+  "footer": [
+    {
+      "key": "support",
+      "href": "#",
+      "icon": "help"
+    },
+    {
+      "key": "logout",
+      "href": "/login",
+      "icon": "logout"
+    }
+  ]
+}

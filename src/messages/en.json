@@ -1,0 +1,28 @@
+{
+  "app": {
+    "name": "Core Admin",
+    "suite": "Enterprise Suite",
+    "company": "PT LARANTIKA TEKNOLOGI SEMESTA",
+    "portal": "Admin Portal"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "users": "Users",
+    "products": "Product Management",
+    "history": "History",
+    "support": "Support",
+    "logout": "Logout"
+  },
+  "login": {
+    "welcome": "Welcome back!",
+    "subtitle": "Please sign in to your account",
+    "email": "Email Address",
+    "password": "Password",
+    "remember": "Remember me",
+    "forgot": "Forgot password?",
+    "submit": "Sign In",
+    "contact": "Contact Administrator",
+    "learn": "Learn more about PT Larantika Teknologi Semesta",
+    "website": "Visit Company Website"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "app": {
+    "name": "Core Admin",
+    "suite": "Enterprise Suite",
+    "company": "PT LARANTIKA TEKNOLOGI SEMESTA",
+    "portal": "Portal Admin"
+  },
+  "nav": {
+    "dashboard": "Dasbor",
+    "users": "Pengguna",
+    "products": "Manajemen Produk",
+    "history": "Riwayat",
+    "support": "Dukungan",
+    "logout": "Keluar"
+  },
+  "login": {
+    "welcome": "Selamat datang kembali!",
+    "subtitle": "Silakan masuk ke akun Anda",
+    "email": "Alamat Email",
+    "password": "Kata Sandi",
+    "remember": "Ingat saya",
+    "forgot": "Lupa kata sandi?",
+    "submit": "Masuk",
+    "contact": "Hubungi Administrator",
+    "learn": "Pelajari PT Larantika Teknologi Semesta",
+    "website": "Kunjungi Website Perusahaan"
+  }
+}
