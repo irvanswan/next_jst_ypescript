@@ -116,7 +116,7 @@ export function AppShell({ children, searchPlaceholder }: AppShellProps) {
             <Menu className="size-5" />
           </button>
           {searchPlaceholder ? (
-            <label className="relative hidden w-full max-w-xl sm:block">
+            <label className="relative hidden w-full max-w-xl lg:block">
               <Search className="absolute left-4 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />
               <Input type="search" placeholder={searchPlaceholder} className="px-11" />
             </label>
