@@ -7,11 +7,14 @@
   },
   "nav": {
     "dashboard": "Dashboard",
-    "users": "Users",
-    "products": "Product Management",
-    "history": "History",
-    "support": "Support",
-    "logout": "Logout"
+    "kontak": "Contacts",
+    "companies": "Companies",
+    "deals": "Deals",
+    "purchaseOrder": "Purchase Order",
+    "task": "Tasks",
+    "product": "Product",
+    "penawaran": "Offers",
+    "properties": "Properties"
   },
   "login": {
     "welcome": "Welcome back!",

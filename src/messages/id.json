@@ -7,11 +7,14 @@
   },
   "nav": {
     "dashboard": "Dasbor",
-    "users": "Pengguna",
-    "products": "Manajemen Produk",
-    "history": "Riwayat",
-    "support": "Dukungan",
-    "logout": "Keluar"
+    "kontak": "Kontak",
+    "companies": "Perusahaan",
+    "deals": "Kesepakatan",
+    "purchaseOrder": "Pesanan Pembelian",
+    "task": "Tugas",
+    "product": "Produk",
+    "penawaran": "Penawaran",
+    "properties": "Properti"
   },
   "login": {
     "welcome": "Selamat datang kembali!",

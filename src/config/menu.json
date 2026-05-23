@@ -3,34 +3,56 @@
     {
       "key": "dashboard",
       "href": "/dashboard",
-      "icon": "grid"
+      "icon": "Grid2x2"
     },
     {
-      "key": "users",
-      "href": "/users",
-      "icon": "users"
+      "key": "kontak",
+      "href": "/contacts",
+      "icon": "Phone"
     },
     {
-      "key": "products",
+      "key": "companies",
+      "href": "/companies",
+      "icon": "Building2"
+    },
+    {
+      "key": "deals",
+      "href": "/deals",
+      "icon": "Handshake"
+    },
+    {
+      "key": "purchaseOrder",
+      "href": "/purchase-orders",
+      "icon": "ClipboardList"
+    },
+    {
+      "key": "task",
+      "href": "/tasks",
+      "icon": "BookCheck"
+    },
+    {
+      "key": "product",
       "href": "/products",
-      "icon": "package"
+      "icon": "Package"
     },
     {
-      "key": "history",
-      "href": "/history",
-      "icon": "clock"
+      "key": "penawaran",
+      "href": "/offers",
+      "icon": "FileText"
     }
   ],
-  "footer": [
-    {
-      "key": "support",
-      "href": "#",
-      "icon": "help"
-    },
-    {
-      "key": "logout",
-      "href": "/login",
-      "icon": "logout"
+  "footer": {
+    "items": [
+      {
+        "key": "properties",
+        "href": "/properties",
+        "icon": "Settings"
+      }
+    ],
+    "profile": {
+      "name": "Admin User",
+      "role": "Administrator",
+      "avatarUrl": "/assets/logo.png"
     }
-  ]
+  }
 }

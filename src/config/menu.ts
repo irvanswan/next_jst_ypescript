@@ -1,26 +1,37 @@
-import { Clock3, CircleHelp, Grid2X2, LogOut, Package, Users, type LucideIcon } from "lucide-react";
+import { icons, type LucideIcon } from "lucide-react";
 import menu from "./menu.json";
 
-type MenuIcon = "clock" | "grid" | "help" | "logout" | "package" | "users";
+type MenuIcon = keyof typeof icons;
 
 export type MenuItem = {
-  key: "dashboard" | "history" | "logout" | "products" | "support" | "users";
+  key:
+    | "companies"
+    | "dashboard"
+    | "deals"
+    | "kontak"
+    | "penawaran"
+    | "product"
+    | "properties"
+    | "purchaseOrder"
+    | "task";
   href: string;
   icon: MenuIcon;
 };
 
+export type MenuProfile = {
+  name: string;
+  role: string;
+  avatarUrl?: string;
+};
+
 export type MenuConfig = {
   main: MenuItem[];
-  footer: MenuItem[];
+  footer: {
+    items: MenuItem[];
+    profile: MenuProfile;
+  };
 };
 
 export const menuConfig = menu as MenuConfig;
 
-export const menuIcons: Record<MenuIcon, LucideIcon> = {
-  clock: Clock3,
-  grid: Grid2X2,
-  help: CircleHelp,
-  logout: LogOut,
-  package: Package,
-  users: Users
-};
+export const menuIcons: Record<MenuIcon, LucideIcon> = icons;
